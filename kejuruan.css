@@ -1,0 +1,578 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+}
+
+nav {
+    background-color: #0082e6;
+    height: 33vh;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    padding-left: 2vh;
+    padding-top: 2vh;
+}
+
+.logo img {
+   width: 10vh;
+   height: auto; 
+}
+
+.logo p {
+    padding-left: 12vh;
+    margin-top: -9vh;
+}
+
+nav ul {
+    padding-top: 219px;
+    padding-left: 2vh;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 1px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 90px;
+    cursor: pointer;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position:absolute;
+        width: 95%;
+        height: 99vh;
+        background: rgba(0, 0, 0, .4);    
+        top: 15vh;
+        left: -100%;
+        text-align: center; 
+        transition: all .5s;   
+    }
+    nav ul li {
+        display: block;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 70%;
+    height: auto;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+    height: auto;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .card {
+    background-color: whitesmoke;
+  }
+
+  .card img {
+    width: 69%;
+    margin-left: 5vh;
+  }
+
+  .card h2 {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+    margin-left: 5vh;
+  }
+
+  .card p {
+    font-size: x-large;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 15%;
+    margin-left: 5vh;
+  }
+
+  .card .gambar img {
+     width: 300px;
+     height: 200px;
+     margin-bottom: 1vh;
+     display: inline-block;
+     border: 1.5px solid black;
+     box-shadow: 1px 1px 6px rgba(0, 0, 0, .4);
+  }
+  /*  */
+  .card2 img {
+    width: 69%;
+    padding-left: 3vh;
+  }
+
+  .card2 h2 {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    padding-left: 3vh;
+  }
+
+  .card2 a {
+    color: lightseagreen;
+  }
+
+  .card2 a:hover {
+    background-color: bisque;
+    opacity: .4;
+    transition: all .4s;
+  }
+  /*  */
+  .card3 h3 {
+    padding-left: 3vh;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .card3 .hr1 {
+    margin-top: 2vh;
+    width: 54%;
+    border: 1px solid blue;
+    margin-left: 3vh;
+  }
+
+  .card3 .hr2,.hr3,.hr4 {
+    margin-top: 14%;
+    width: 97%;
+    border: .5px solid wheat;
+    margin-left: 1vh;
+  }
+/*  */
+.g1 img {
+  margin-top: 2vh;
+  width: 25%;
+  border: 4px solid burlywood;
+  margin-left: 3vh;
+}
+
+.g1 p {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 33%;
+  margin-top: -23%;
+  font-size: larger;
+  width: 60%;
+}
+
+.g1 a {
+  color: #0082e6;
+}
+
+.g1 a:hover {
+  background-color: blanchedalmond;
+  opacity: .5;
+  transition: all .5s;
+}
+/*  */
+.g2 img {
+  margin-top: 2vh;
+  width: 25%;
+  border: 4px solid burlywood;
+  margin-left: 3vh;
+}
+
+.g2 p {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 33%;
+  margin-top: -23%;
+  font-size: larger;
+  width: 60%;
+}
+
+.g2 a {
+  color: #0082e6;
+}
+
+.g2 a:hover {
+  background-color: blanchedalmond;
+  opacity: .5;
+  transition: all .5s;
+}
+/*  */
+
+/*  */
+
+.g3 img {
+  margin-top: 4%;
+  width: 25%;
+  border: 4px solid burlywood;
+  margin-left: 3vh;
+}
+
+.g3 p {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 33%;
+  margin-top: -23%;
+  font-size: larger;
+  width: 60%;
+}
+
+.g3 a {
+  color: #0082e6;
+}
+
+.g3 a:hover {
+  background-color: blanchedalmond;
+  opacity: .5;
+  transition: all .5s;
+}
+/*  */
+.page h2{
+   padding-top: 5vh;
+   font-size: xx-large;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 3vh;
+}
+
+.page hr {
+  margin-top: 2vh;
+  width: 54%;
+  border: 1px solid blue;
+  margin-left: 3vh;
+}
+/*  */
+
+.text p {
+  text-align: center;
+  margin: auto;
+}
+
+.text img {
+  width: 7%;
+  cursor: pointer;
+}
+
+.text .p2 {
+  padding-top: 13vh;
+  text-align: left;
+}
+
+.text .p3{
+  padding-top: 7vh;
+  text-align: right;
+}   
+
+.text a {
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text .a {
+  font-size: 80%;
+  font-weight: 600;
+  color: aqua;
+  border: 2px solid black;
+}
+
+.text .a:hover {
+  background-color: #1b9bff;
+}
+
+.text .a2 {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  border: 2px solid bisque; 
+}
+
+.text .a2:hover {
+    color: black;
+    background-color: burlywood;
+    transition: all .6s;
+}
+/*  */
+.e1,.e2,.e3,.e4,.e5,.e6,.e7,.e8,.e9 p {
+  width: 50%;
+  padding-top: 2vh;
+  padding-left: 3vh;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#e1 {
+  margin-top: 1vh;
+  width: 202%;
+  margin-left: -1vh;  
+  border: .3px solid #ddd;
+}
+/*  */
+
+/* Left column */
+.kiri {   
+    float: left;
+    width: 35%;
+    height: auto;
+  }
+
+.kiri iframe  {
+    width: 70%;
+    height: 30vh;
+    margin-left: 5vh;
+  }  
+
+/*  */
+  
+ .tengah{
+  float: left;
+  width: 30%;
+  height: auto;
+ } 
+
+  /* Right column */
+  .kanan {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .kiri, .tengah, .kanan   {   
+      width: 100%;
+      padding: 0;
+    } 
+  }
+/*  */
+  #row {
+    background-color: #424242;
+  }
+   
+  .kiri{
+    height: 100vh;
+  }
+
+  .kiri .maps{
+      margin-top: 5vh;
+      width: 70%;
+      height: 50vh;
+  }
+
+  .kiri iframe {
+    margin-top: 2vh;
+    height: 30vh;
+  }
+
+  .kiri p {
+    margin-left: 10.5vh;
+    margin-top: 2vh;
+    font-size: x-large;
+    color: grey;
+  }
+  /*  */
+
+  .kartu h3 {
+    margin-top: 5vh;
+    font-size: xx-large;
+    color: white;
+    margin-left: 5vh;
+  }
+
+  .kartu .tengah {
+    margin-top: 1vh;
+    width: 50%;
+    border: 1px solid blue;
+    margin-left: 5vh;
+  }
+
+  .kartu img {
+    width: 20%;
+    margin-top: 5vh;
+    margin-right: 50vh;
+    margin-left: 5vh;
+    border: 1px solid white;
+  }
+
+  .kartu p {
+    margin-left: 22vh;
+    margin-top: -7vh;
+    font-size: large;
+    width: 60%;
+  }
+
+  .kartu .garis {
+    margin-top: 3%;
+    margin-left: 5vh;
+    width: 80%;
+  }
+
+  .kartu a{
+      color: white;
+  }
+
+  .kartu a:hover {
+    color: #1b9bff;
+    background-color: #0082e6;
+  }
+
+  .kartu img {
+    cursor: pointer;
+  }
+/*  */
+.kanan {
+  height: 40vh;
+}
+
+.kanan h3 {
+  font-weight: 500;
+  font-size: xx-large;
+  color: white;
+  margin-top: 5vh;
+  margin-left: 5.5vh;
+}
+
+.kanan #kanan {
+  width: 40%;
+  margin-top: 1vh;
+  margin-left: 5.5vh;
+  border: 1px solid blue;
+}
+
+.kanan .grs {
+  margin-left: 6vh;
+  width: 70%;
+}
+
+.kanan a {
+  color: white;
+}
+
+.kanan a:hover{
+    color: #1b9bff;
+    background-color: #0082e6;
+}
+
+.kanan p {
+  margin-left: 6vh;
+  font-size: x-large;
+  width: 80%;
+  margin-top: 4vh;
+}
+/*  */
+.footer2{
+  width: 100%;
+  height: 170px;
+  background-color: white;
+}
+
+.footer2 p {
+  font-size: x-large;
+  padding-left: 3vh; 
+  padding-top: 2vh;
+  color: black;
+  font-weight: 600;
+}
+
+.footer2 .pg2 {
+  text-align: right;
+  padding-right: 10vh;
+  margin-top: -4vh;
+  padding-top: 5vh;
+  background-image: url(/);
+}

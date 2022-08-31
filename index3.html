@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--Import materialize.css-->
+   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+   <!-- my css -->
+   <link rel="stylesheet" href="style3.css">
+   <title>PPDB SMK AL AMANAH</title>
+</head>
+<body>
+  
+
+      
+      <!-- navbar -->
+
+<div class="navbar-fixed">
+  <nav class="blue navbar navbar-light bg-light">
+    <h5 class="navbar"><b class="ppdb">PPDB SMK Al Amanah</b></h5>
+  </nav>
+</div>
+
+
+<!-- form -->   
+<div class="container">
+  <div class="row">
+    <div class="card-panel">
+      <h5 class="navbar blue-text">Formulir Masuk Aplikasi</h5>
+      <hr>
+      <h6>Nomor Induk Kewarganegaraan/NISN/ No. Pendafataran</h6>
+      <div class="data">
+        <form>
+          <div class="row">
+            <div class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input placeholder="" id="" type="text" class="validate">
+                </div>
+                <h6>Tanggal Lahir</h6>
+              </div>
+              <div class="input-field col s12">
+                <input type="date" class="datepicker">
+              </div>
+                <div class="button">
+                  <a class="waves-effect blue darken-4 btn-small">Masuk</a>
+                </div>
+                <p class="button1">
+                  <a class="black-text blue amber lighten-1 btn-small">Daftar Baru</a>
+                  <a class="waves-effect green darken-4 btn-small">Bantuan</a>
+                </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+<footer class="center white white-dark">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <p>ㅤㅤCopyright &copy; 2022 SMK Al Amanah Kota Tangerang Selatan | by: <i class="tiny material-icons">person</i> <a href="http://instagram.com/ryooomp">ryooomp</a></p>
+</footer>
+
+
+ <!--JavaScript at end of body for optimized loading-->
+ <script type="text/javascript" src="js/materialize.min.js"></script>
+ <script>
+     const sidenav = document.querySelectorAll('.sienav');
+     M.sidenav.init(sidenav, {
+
+     });
+
+     document.addEventListener('DOMContentLoaded', function() {
+ var elems = document.querySelectorAll('select');
+ var instances = M.FormSelect.init(elems, options);
+});
+
+
+ </script>
+
+</body>
+</html>

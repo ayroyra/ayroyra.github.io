@@ -1,0 +1,17 @@
+.navbar {
+    padding-left: 10px;
+    padding-top: 0;
+}
+
+.data {
+    padding-left: 20px;
+}
+
+body {
+    background-color: grey;
+}
+
+footer {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

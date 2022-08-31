@@ -1,0 +1,328 @@
+.slider h3,
+.slider h5,
+.clients h4 {
+    text-shadow: 1px 1px 3px rgba(0,0,0, 0.9);
+    font-style: italic;
+}
+
+.container h3 {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.cyan .brand-logo {
+    padding: 10px;
+}
+
+.cyan ul ul li {
+    width: 130px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+.cyan {
+   height: 80px;
+}
+
+.cyan ul li a {
+    display: block;
+    color: black;
+    padding: 10px;
+}
+
+.cyan ul li .dropdown {
+    display: none;
+}
+
+.cyan ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background: #f1f1f1;
+    color: #666;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0px 10px 0px 10px;
+    line-height: 35px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.cyan ul li:hover .dropdown li  {
+    display: block;
+}
+
+
+.parallax-container {
+    height: 250px;
+}
+
+.parallax img {
+    opacity: 0.5 !important;   
+    filter: grayscale(1);
+    background-position: center;
+    background-size: cover;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow( 1px 1px 3px rgba(0,0,0, 0.9));
+}
+
+#services {
+    background-color: blue;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.berita {
+   padding-left: 40px;
+   background-color: #f1f1f1;
+
+}
+
+.berita img:hover {
+    opacity: .6;
+    color: white;
+    transition: 1s;
+}
+
+.berita .card-content a {
+    margin-left: 1090px;
+    margin-top: -100px;
+    width: 150px;
+}
+
+.berita .card-content a:hover {
+    opacity: .6;
+    color: burlywood
+}
+
+.berita .card-content p{
+    padding-left: 30px;
+    padding-right: 300px;
+}
+
+
+.berita .card {
+    margin-right: -710px;
+    height: 110px;
+    margin-left: -220px;
+    margin-top: 20px;
+}
+
+.berita .container {
+    margin-bottom: -30px;
+}
+
+#tentang img{
+  
+   width: 300px;    
+   margin-left: 90px; 
+}
+
+.container a  {
+    margin-bottom: -50px;
+}
+
+
+/* tentang */
+#tentang {
+    background-color: #f1f1f1;
+}
+
+#tentang img{
+   width: 400px;    
+   box-shadow: 1px 1px 6px rgba(0,0,0, 0.9);
+   margin-left: 10px;
+} 
+
+#tentang p {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 38px;
+}
+
+#tentang #p2 {
+    margin-left: 10px;
+}
+/*  */
+
+
+
+.portfolio p {
+    font-weight: bold;
+    text-shadow: 1px 1px 4px bisque;
+}
+
+.portfolio .card-panel {
+    color: gray;
+    box-shadow: 1px 1px 5px white;
+}
+
+#services{
+    background-color: white;
+}
+
+.slider {
+   height: 20px;
+}
+
+.about {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact {
+    background-image: url(img/portfolio/Pengumuman-Masuk-Sekolah.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    opacity: .8;
+}
+
+#pendaftaran label {
+    font-weight: bold;
+    color: black;
+}
+
+
+footer {
+    width: 97.5%;
+    height: 100px;
+    font-weight: bold;
+    color: black;
+    background-color: blue;
+    text-align: center;
+}
+
+
+/* kiri */
+#footer{
+    width: 100%;
+    height: 900px;
+    background-color: #424242;
+}
+
+#footer .yt {
+    margin-left: 10px;
+}
+
+#footer iframe {
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+#footer .ggl {
+    height: 300px;
+    margin-left: 10px;
+}
+
+#footer p {
+    color: grey;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 23px;
+}
+
+/* */
+#tengah h4 {
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#tengah hr {
+    width: 250px;
+    margin-right: 300px;
+    border: 1px solid #1565c0;
+}
+
+#tengah img {
+    border: 1px solid white;
+    margin-top: 17px;
+}
+
+#tengah .p1 {
+    margin-top: -50px;
+    margin-right: 10px;
+    color: white;
+}
+
+#tengah .p1:hover {
+    color: #1e88e5;
+    transition: .4s;
+}
+
+#tengah #hr2{
+    margin-top: 29px;
+    width: 380px;
+    border: .1px solid grey;
+}
+
+#tengah #hr3 {
+    border: .1px solid grey;
+    width: 380px;
+    margin-top: -8px;
+}
+
+/* */
+#k .p2 {
+    color: white;
+    margin-top: -50px;
+    margin-right: 99px;
+    margin-left: 55px;
+}
+
+#k .p2:hover {
+    color: #1e88e5;
+    transition: .4s;
+}
+
+/* */
+#k3 .p3 {
+    margin-top: -50px;
+    margin-right: -40px;
+    color: white;
+}
+
+#k3 #hr4 {
+    margin-top: 29px;
+    width: 380px;
+    border: .1px solid gray;
+}
+
+#k3 .p3:hover {
+    color: #1e88e5;
+}
+
+/* */
+#kanan .judul {
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#kanan hr {
+    width: 250px;
+    margin-right: 300px;
+    border: 1px solid #1565c0;
+}
+
+#kanan img {
+    width: 50px;
+    height: 50px;
+}
+
+#kanan span {
+    color: white;
+    font-weight: 400;
+    margin-top: -500px;
+}
+
+section, footer {
+    padding: 5px 10px;
+}
